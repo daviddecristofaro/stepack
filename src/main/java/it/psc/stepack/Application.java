@@ -14,7 +14,7 @@ import it.psc.stepack.jpa.repository.UserRepository;
 
 @SpringBootApplication
 @PropertySources({ @PropertySource(value = "classpath:stepack.properties", ignoreResourceNotFound = false),
-		@PropertySource(value = "file:{}/stepack.properties", ignoreResourceNotFound = true), })
+		@PropertySource(value = "file:{  }/stepack.properties", ignoreResourceNotFound = true), })
 public class Application {
 
 	public static void main(String[] args) {
